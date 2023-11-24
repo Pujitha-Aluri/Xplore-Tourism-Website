@@ -1,0 +1,199 @@
+header{
+    color:aquamarine;
+    background-color: black;
+    font-size: 40px;
+    box-shadow:10px 0px 10px #dda15e;
+    position: absolute;
+    left:0px;
+    top:2px;
+    width:100%
+}  
+a{
+    font-size: 25px;
+    padding:7px;
+}
+.body-india {
+    margin-top: 25px;
+    z-index: -1;
+    position: absolute;
+    padding-top: 60px;
+} 
+
+.h1-india {
+    text-align: center;
+    font-family: monospace;
+}
+.p1-india {
+    text-align: justify;
+    padding: 15px;
+    color: rgb(113, 35, 35);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    /* font-size: 5px; */  
+}
+#a {
+    grid-area: a1;
+}
+
+#b {
+    grid-area: b1;
+}
+
+#c {
+    grid-area: c1;
+}
+
+#d {
+    grid-area: d1;
+}
+
+/* #e {
+    grid-area: e1;
+} */
+
+.touristspots {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    /* background-image:url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80") ; */
+    /* background-size:cover;
+    background-attachment: fixed;
+    opacity: 0.8; */
+    color: rgb(12, 10, 10);
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 60px;
+    margin-top: 0px;
+    right: 0px;
+    display: grid;
+    grid-template-areas: 'a1 b1 ' 'c1  d1';
+}
+
+.main>div {
+    padding-left: 0px;
+    margin: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 10px 10px 5px black;
+}
+
+.btn {
+    color: white;
+    background-color: green;
+    border-radius: 120px;
+    border-style:outset;
+    border-color: black;
+
+}
+
+.p2-india {
+    text-align: justify;
+    padding: 10px;
+    color: rgb(161, 81, 40);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    text-decoration: none;
+    color:white;
+    padding-left: 6%;
+    padding-top:18px;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: black;
+    padding-bottom: 20px;
+}
+.footer-1{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+   padding-top: 10px;
+   line-height:45px;
+   padding-bottom: 20px;
+    margin-right: 0px;
+}
+.footer-2{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    line-height:40px;
+   padding-top: 10px;
+}
+.footer-3{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    padding-top: 10px;
+    line-height:45px;
+    padding-bottom: 20px;
+}
+.list1{
+    text-decoration: none;
+    color:white;
+}
+.footer-1:hover{
+    color:white;
+}
+.footer-2:hover{
+    color:white;
+}
+.footer-3:hover{
+    color:white;
+} 
+  .brand {
+    color: rgb(54, 163, 145);
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.help {
+    text-decoration: none;
+    color: green;
+}
+
+.help:hover {
+    color: black;
+}
+
+.image1-india {
+    float: right;
+    padding: 10px;
+    border-radius: 20px;
+    height: 250px;
+    padding-top: 0px;
+}
+
+.h2-india {
+    text-align: center;
+}
+
+
+.p3-india {
+    text-align: justify;
+    color: darkgrey;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h3-india {
+    text-decoration: none;
+    color: darkorange;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.h3-india:hover {
+    text-decoration: none;
+    color: orange;
+} 
+.tq{
+    color: white;
+    text-align: center;
+}
